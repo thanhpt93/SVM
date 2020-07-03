@@ -150,7 +150,7 @@ namespace SVMREL
 
                 // write mapping to file
                 string mapping_file = parameter["mapping_file"];
-                StreamWriter map = new StreamWriter(mapping_file, true, Encoding.UTF8);
+                StreamWriter map = new StreamWriter(mapping_file, false, Encoding.UTF8);
                 foreach(var tmp in MAP)
                 {
                     string line = tmp.Key + " " + tmp.Value;

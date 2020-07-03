@@ -86,3 +86,42 @@ model_load = SVM.LoadModel(parameter["path_model"] + comboBox1.Text);
 ```
 
 ## Usage
+
+1. Dataset structure
+
+Put dataset follow below structure:
+
+```
+dataset
+|
+|__Train
+|   |__class1
+|   |   |__img1
+|   |   |__img2
+|   |   ...
+|   |__class2
+|   |   |__img1
+|   |   |__img2
+|   |   ...
+|    ...
+|
+|__Validation
+|   |__class1
+|   |   |__img1
+|   |   |__img2
+|   |   ...
+|   |__class2 
+|   |   |__img1
+|   |   |__img2
+|   |   ...
+|   ...
+|
+|__Test
+   |__img_test1
+   |__img_test2
+   ...
+```
+
+2. Video guide
+
+

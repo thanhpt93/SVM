@@ -17,13 +17,13 @@ Step to install OpenCVSharp:
 
 1. Right click in References -> Manage Nuget Package
 
-![Install Guide](ImgShow\InstallGuide.JPG)
+![Install Guide](ImgShow//InstallGuide.JPG)
 
 2. Search library which you want to install then install
 
 3. when you coding, remember using library to use
 
-![Install Guide](ImgShow\InstallGuide2.JPG)
+![Install Guide](ImgShow//InstallGuide2.JPG)
 
 ## Some function importance use in project
 

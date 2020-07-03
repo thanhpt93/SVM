@@ -1,0 +1,18 @@
+{
+ "path_extraction":"D:/SVM/FeatureExtraction/",
+ "path_model":"D:/SVM/Model/",
+ "path_result":"D:/SVM/Result/",
+ "hog_train_file":"D:/SVM/FeatureExtraction/hog_train.txt",
+ "hog_val_file":"D:/SVM/FeatureExtraction/hog_val.txt",
+ "hog_test_file":"D:/SVM/FeatureExtraction/hog_test.txt",
+ "result_file":"D:/SVM/Result/predict.txt",
+ "mapping_file":"D:/SVM/Result/mapping.txt",
+ "resize":"40,40",
+ "kernel_svm":"RBF",
+ "c":1,
+ "p":0.01,
+ "gamma":2,
+ "degree":3,
+ "nu":0.05,
+ "coef0":0
+ }

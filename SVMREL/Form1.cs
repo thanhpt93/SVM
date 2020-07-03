@@ -324,6 +324,7 @@ namespace SVMREL
                     param.Degree = Convert.ToInt16(parameter["degree"]);
                     param.Nu = double.Parse(parameter["nu"], CultureInfo.InvariantCulture);
                     param.Coef0 = double.Parse(parameter["coef0"], CultureInfo.InvariantCulture);
+                    param.Eps = double.Parse(parameter["eps"], CultureInfo.InvariantCulture);
                     //Train model
                     model = LibSVMsharp.SVM.Train(FileTrain, param);
                     LibSVMsharp.SVM.SaveModel(model, parameter["path_model"] + textBox3.Text + ".txt");

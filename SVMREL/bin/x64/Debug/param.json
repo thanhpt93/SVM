@@ -8,11 +8,12 @@
  "result_file":"D:/SVM/Result/predict.txt",
  "mapping_file":"D:/SVM/Result/mapping.txt",
  "resize":"40,40",
- "kernel_svm":"RBF",
- "c":1,
+ "kernel_svm":"Linear",
+ "c":3,
  "p":0.01,
- "gamma":2,
- "degree":3,
- "nu":0.05,
- "coef0":0
+ "gamma":1,
+ "degree":4,
+ "nu":0.5,
+ "coef0":0,
+ "eps":0.001
  }

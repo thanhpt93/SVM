@@ -69,9 +69,9 @@ namespace SVMREL
             {
                 string line = lables.ToString();
                 sw.Write(line);
-                Cv2.CvtColor(img_lst[i], gray, ColorConversionCodes.BGR2GRAY);
+                Cv2.CvtColor(img_lst[i], gray, ColorConversionCodes.RGB2GRAY);
                 //canny
-                Cv2.Canny(gray, gray, 50, 200);
+                // Cv2.Canny(gray, gray, 100, 200);
                 descriptors = hog.Compute(gray);
                 descriptors_size = descriptors.Length;
                 Mat Mat_descriptor = new Mat(descriptors_size, 1, MatType.CV_8UC1);
@@ -103,7 +103,7 @@ namespace SVMREL
                 string line = lables.ToString();
                 sw.Write(line);
                 
-                Cv2.CvtColor(img_lst[i], gray, ColorConversionCodes.BGR2GRAY);               
+                Cv2.CvtColor(img_lst[i], gray, ColorConversionCodes.RGB2GRAY);               
                 descriptors = hog.Compute(gray);
                 
                 descriptors_size = descriptors.Length;

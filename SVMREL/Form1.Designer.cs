@@ -148,6 +148,7 @@
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
+            this.splitContainer1.IsSplitterFixed = true;
             this.splitContainer1.Location = new System.Drawing.Point(3, 3);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
@@ -293,6 +294,7 @@
             // 
             this.splitContainer3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer3.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
+            this.splitContainer3.IsSplitterFixed = true;
             this.splitContainer3.Location = new System.Drawing.Point(0, 0);
             this.splitContainer3.Name = "splitContainer3";
             // 
@@ -352,6 +354,7 @@
             // 
             this.splitContainer4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer4.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
+            this.splitContainer4.IsSplitterFixed = true;
             this.splitContainer4.Location = new System.Drawing.Point(0, 0);
             this.splitContainer4.Name = "splitContainer4";
             // 
@@ -405,17 +408,18 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(82, 73);
+            this.textBox5.Location = new System.Drawing.Point(96, 73);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(76, 20);
+            this.textBox5.Size = new System.Drawing.Size(62, 20);
             this.textBox5.TabIndex = 7;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(21, 76);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(52, 13);
+            this.label7.Size = new System.Drawing.Size(63, 15);
             this.label7.TabIndex = 6;
             this.label7.Text = "Accuracy";
             // 
@@ -430,17 +434,18 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(82, 36);
+            this.textBox4.Location = new System.Drawing.Point(96, 36);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(76, 20);
+            this.textBox4.Size = new System.Drawing.Size(62, 20);
             this.textBox4.TabIndex = 4;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(6, 39);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(67, 13);
+            this.label4.Size = new System.Drawing.Size(92, 15);
             this.label4.TabIndex = 3;
             this.label4.Text = "Training time";
             // 
@@ -459,6 +464,7 @@
             // 
             this.splitContainer6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer6.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
+            this.splitContainer6.IsSplitterFixed = true;
             this.splitContainer6.Location = new System.Drawing.Point(3, 3);
             this.splitContainer6.Name = "splitContainer6";
             this.splitContainer6.Orientation = System.Windows.Forms.Orientation.Horizontal;
@@ -480,7 +486,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(262, 0);
+            this.button5.Location = new System.Drawing.Point(283, 0);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(106, 41);
             this.button5.TabIndex = 6;
@@ -493,18 +499,18 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(47, 12);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(108, 21);
+            this.comboBox1.Size = new System.Drawing.Size(129, 21);
             this.comboBox1.TabIndex = 5;
             this.comboBox1.DropDown += new System.EventHandler(this.comboBox1_DropDown);
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // btnLoadModel
             // 
-            this.btnLoadModel.Location = new System.Drawing.Point(161, 0);
+            this.btnLoadModel.Location = new System.Drawing.Point(182, 0);
             this.btnLoadModel.Name = "btnLoadModel";
             this.btnLoadModel.Size = new System.Drawing.Size(95, 41);
             this.btnLoadModel.TabIndex = 4;
-            this.btnLoadModel.Text = "Load";
+            this.btnLoadModel.Text = "Load model";
             this.btnLoadModel.UseVisualStyleBackColor = true;
             this.btnLoadModel.Click += new System.EventHandler(this.btnLoadModel_Click);
             // 
@@ -521,6 +527,7 @@
             // 
             this.splitContainer7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer7.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
+            this.splitContainer7.IsSplitterFixed = true;
             this.splitContainer7.Location = new System.Drawing.Point(0, 0);
             this.splitContainer7.Name = "splitContainer7";
             // 
@@ -532,7 +539,7 @@
             // 
             this.splitContainer7.Panel2.Controls.Add(this.splitContainer8);
             this.splitContainer7.Size = new System.Drawing.Size(916, 482);
-            this.splitContainer7.SplitterDistance = 155;
+            this.splitContainer7.SplitterDistance = 183;
             this.splitContainer7.TabIndex = 0;
             // 
             // splitContainer9
@@ -549,7 +556,7 @@
             // splitContainer9.Panel2
             // 
             this.splitContainer9.Panel2.Controls.Add(this.listBox2);
-            this.splitContainer9.Size = new System.Drawing.Size(155, 482);
+            this.splitContainer9.Size = new System.Drawing.Size(183, 482);
             this.splitContainer9.SplitterDistance = 51;
             this.splitContainer9.TabIndex = 0;
             // 
@@ -558,7 +565,7 @@
             this.button4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button4.Location = new System.Drawing.Point(0, 0);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(155, 51);
+            this.button4.Size = new System.Drawing.Size(183, 51);
             this.button4.TabIndex = 0;
             this.button4.Text = "Open Image";
             this.button4.UseVisualStyleBackColor = true;
@@ -571,7 +578,7 @@
             this.listBox2.FormattingEnabled = true;
             this.listBox2.Location = new System.Drawing.Point(0, 0);
             this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(155, 427);
+            this.listBox2.Size = new System.Drawing.Size(183, 427);
             this.listBox2.TabIndex = 0;
             this.listBox2.SelectedIndexChanged += new System.EventHandler(this.listBox2_SelectedIndexChanged);
             // 
@@ -579,6 +586,7 @@
             // 
             this.splitContainer8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer8.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
+            this.splitContainer8.IsSplitterFixed = true;
             this.splitContainer8.Location = new System.Drawing.Point(0, 0);
             this.splitContainer8.Name = "splitContainer8";
             // 
@@ -589,8 +597,8 @@
             // splitContainer8.Panel2
             // 
             this.splitContainer8.Panel2.Controls.Add(this.groupBox2);
-            this.splitContainer8.Size = new System.Drawing.Size(757, 482);
-            this.splitContainer8.SplitterDistance = 552;
+            this.splitContainer8.Size = new System.Drawing.Size(729, 482);
+            this.splitContainer8.SplitterDistance = 524;
             this.splitContainer8.TabIndex = 0;
             // 
             // pictureBox2
@@ -599,7 +607,7 @@
             this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox2.Location = new System.Drawing.Point(0, 0);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(552, 482);
+            this.pictureBox2.Size = new System.Drawing.Size(524, 482);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
@@ -622,7 +630,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(101, 70);
+            this.label13.Location = new System.Drawing.Point(101, 72);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(19, 13);
             this.label13.TabIndex = 7;
@@ -631,16 +639,17 @@
             // label12
             // 
             this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(36, 70);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(35, 13);
+            this.label12.Size = new System.Drawing.Size(46, 15);
             this.label12.TabIndex = 6;
             this.label12.Text = "Class:";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(101, 38);
+            this.label10.Location = new System.Drawing.Point(101, 40);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(19, 13);
             this.label10.TabIndex = 4;
@@ -649,9 +658,10 @@
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(6, 38);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(65, 13);
+            this.label9.Size = new System.Drawing.Size(88, 15);
             this.label9.TabIndex = 3;
             this.label9.Text = "Predict time:";
             // 
